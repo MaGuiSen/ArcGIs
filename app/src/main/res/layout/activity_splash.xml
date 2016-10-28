@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/icon_bg_a"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_yun_1"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="112dp"
+        android:src="@mipmap/icon_cloud_a" />
+
+    <ImageView
+        android:id="@+id/img_yun_3"
+        android:layout_width="100dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/icon_cloud_a" />
+
+    <ImageView
+        android:id="@+id/img_yun_2"
+        android:layout_width="72dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="88dp"
+        android:src="@mipmap/icon_cloud_b" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="430dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/icon_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ArcGIS地图"
+            android:textColor="#54bce8"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_rect_gray_b"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Demo"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_lighthouse"
+        android:layout_width="103dp"
+        android:layout_height="190dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:background="@mipmap/icon_light_house" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp" />
+
+    <LinearLayout
+        android:id="@+id/llay_go_map"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:background="@mipmap/icon_circle_white_a"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动"
+            android:textColor="#54bce8"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地图"
+            android:textColor="#54bce8"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Powered by 畅博思科技"
+        android:textColor="#808080"
+        android:textSize="12sp" />
+
+</RelativeLayout>

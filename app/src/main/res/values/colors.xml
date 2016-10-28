@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="coffee_selection">#CDDC39</color>
+    <color name="pizza_selection">#FFC107</color>
+    <color name="beer_selection">#FF5722</color>
+    <color name="ui_highlight">#263238</color>
+    <color name="ratings">#FF9800</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--主题灰色，abc..不代表等级-->
+    <color name="theme_color_gray_a">#fff2f2f2</color>
+    <color name="theme_color_gray_b">#ffb3b3b3</color>
+    <color name="theme_color_gray_c">#ff808080</color>
+    <color name="theme_color_gray_d">#ffe6e6e6</color>
+    <color name="theme_color_gray_e">#ffc7c7c7</color>
+    <color name="theme_color_gray_f">#ff909090</color>
+    <color name="theme_color_gray_g">#ffd2d2d2</color>
+</resources>
